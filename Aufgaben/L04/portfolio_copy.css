@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    color: rgb(219, 27, 27);
+    font-family:'Times New Roman', Times, serif
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+    padding: 30px;
+    text-transform:none;
+    color: grey;
+    text-align:right;
+
+    
+a:hover {
+    color: white;
+}
+
+    nav li[current] a {
+        color: white;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    
+.nav .li {
+    list-style-type: none;
+    background-color: transparent;
+}
+
+.nav .li:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.nav .li:current {
+    background-color: transparent;
+}
+
+
+.hintergrundbild {
+    height: 400px;
+    background-color: black;
+    background-image:url()
+
+    background-size: cover;
+    top: 0;
+}
