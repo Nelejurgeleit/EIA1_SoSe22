@@ -1,0 +1,10 @@
+.farbe{background-color:red ; display:flex;
+    width: 300px;
+    height: 200px ;
+position: relative;
+left: 50%;
+transform: translateX(-50%);}
+footer{position:relative; width:100%;}
+footer section :nth-child(1){flex:1}
+footer section :nth-child(2){flex:1}
+footer section :nth-child(3){flex:1}
